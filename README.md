@@ -3,7 +3,7 @@
 #### :alarm_clock: [Date de remise le dimanche 10 octobre à 23h59](https://www.timeanddate.com/countdown/generic?iso=20211010T2359&p0=165&msg=Remise&font=cursive&csz=1#)
 
 ## Objectif
-Ce TP poursuit votre apprentissage à l'algorithmie avec le langage de programmation Python.
+Ce TP poursuit votre apprentissage de l'algorithmie avec le langage de programmation Python.
 Plus particulièrement l'utilisation de structure de contrôles et de structure de données.  
 Celui-ci est composé de 4 exercices, pour lesquels vous devez compléter le code avec l'indicateur `TODO`.
 Les exercices sont tous indépendants, l'exercice 4 est composé de 3 parties.
