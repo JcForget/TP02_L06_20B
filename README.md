@@ -54,14 +54,14 @@ Le but de cet exercice est de programmer un petit jeu de labyrinthe dans lequel 
 Toutes les fonctions vous sont fournies, il vous faut seulement compléter les diverses parties identifiées par un `TODO`.  
 Le labyrinthe que l'on va représenter est le suivant :  
 <img align="center" src="img/grille.png"/>  
-Cependant comme nous allons afficher le labyrinthe dans le terminal, notre affichage est simplifié et ressemblera à ça :  
+Cependant comme nous allons afficher le labyrinthe dans le terminal, notre affichage est simplifié et ressemblera à cela :  
 <img align="center" src="img/terminal.png"/>  
 - O : le joueur
 - X : la sortie
 - W : un mur
 - _ : une case libre
 
-**ATTENTION** Pour la correction une autre définition du labyrinthe sera utilisée, donc votre code devra pouvoir s'adapter
+**ATTENTION** Pour la correction une autre définition du labyrinthe sera utilisée, donc votre code devra pouvoir s'adapter.
 
 ### Partie 1 : Génaration du labyrinthe (2 points)
 Il vous faut compléter la fonction `init_maze` pour ce faire nous avons :
@@ -74,10 +74,10 @@ Il faut également compléter le début du `main` pour définir la position du j
 Voir l'image ci-dessus.
 
 ### Partie 2 : Vérification d'un mouvement (3 points)
-Dans cette partie on va compléter la fonction `validate_move`, pour cette fonction nous avons *maze* qui correspond au labyrinthe générer à la question d'avant et *new_player_pos*
+Dans cette partie on va compléter la fonction `validate_move`, pour cette fonction nous avons *maze* qui correspond au labyrinthe générer à la question d'avant et *new_player_pos*.
 qui correspond à une nouvelle position que le joueur serait sur le point de prendre.  
 L'objectif ici est de compléter la fonction pour que l'on renvoie *True* si *new_player_pos* est valide, c'est à dire dans le labyrinthe et pas sur un mur. 
-Sinon on renverra *False*
+Sinon on renverra *False*.
 
 ### Partie 3 : Faire un mouvement (5 points)
 Enfin dans cette dernière partie nous allons compléter la fonction `move`, Dans un premier temps à l'aide d'un dictionnaire
