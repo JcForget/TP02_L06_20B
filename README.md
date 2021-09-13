@@ -63,7 +63,7 @@ Cependant comme nous allons afficher le labyrinthe dans le terminal, notre affic
 
 **ATTENTION** Pour la correction une autre définition du labyrinthe sera utilisée, donc votre code devra pouvoir s'adapter.
 
-### Partie 1 : Génaration du labyrinthe (2 points)
+### Partie 1 : Génaration du labyrinthe (3 points)
 Il vous faut compléter la fonction `init_maze` pour ce faire nous avons :
 - la dimension du labyrinthe
 - la position du joueur
@@ -79,7 +79,7 @@ qui correspond à une nouvelle position que le joueur serait sur le point de pre
 L'objectif ici est de compléter la fonction pour que l'on renvoie *True* si *new_player_pos* est valide, c'est à dire dans le labyrinthe et pas sur un mur. 
 Sinon on renverra *False*.
 
-### Partie 3 : Faire un mouvement (5 points)
+### Partie 3 : Faire un mouvement (4 points)
 Dans cette dernière partie nous allons compléter la fonction `move`, Dans un premier temps à l'aide d'un dictionnaire
 il faut convertir l'entré *input* en sa direction correspondante. On s'attend à avoir :
 - q -> up
