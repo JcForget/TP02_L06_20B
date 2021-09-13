@@ -80,7 +80,7 @@ L'objectif ici est de compléter la fonction pour que l'on renvoie *True* si *ne
 Sinon on renverra *False*.
 
 ### Partie 3 : Faire un mouvement (5 points)
-Enfin dans cette dernière partie nous allons compléter la fonction `move`, Dans un premier temps à l'aide d'un dictionnaire
+Dans cette dernière partie nous allons compléter la fonction `move`, Dans un premier temps à l'aide d'un dictionnaire
 il faut convertir l'entré *input* en sa direction correspondante. On s'attend à avoir :
 - q -> up
 - a -> left 
