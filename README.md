@@ -87,9 +87,5 @@ il faut convertir l'entré *input* en sa direction correspondante. On s'attend �
 - s -> down
 - d -> right
 
-Il faut ensuite vérifier si l'entrée est valide, puis en fonction de la direction générer une nouvelle position potentielle pour le joueur.
-Se servir de la fonction `validate_move` pour vérifier la validité du mouvement. Voici le code pour faire cela :
-```python
-if validate_move(maze, new_player_pos):
-```
+Il faut ensuite vérifier si l'entrée est valide, puis en fonction de la direction générer une nouvelle position potentielle pour le joueur.  
 Enfin si le mouvement est valide on change la position du joueur dans le labyrinthe.
