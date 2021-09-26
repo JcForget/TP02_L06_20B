@@ -13,5 +13,6 @@ if __name__ == '__main__':
     pi = 3.141592653589793
     p = 5
     computed_pi , nb_iter = compute_pi(p)
-    print(pi)
-    print(computed_pi)
+    print("La valeur réel de pi est : {}".format(pi))
+    print("La valeur approché de pi à 10e-{} est : {}".format(p, computed_pi))
+    print("Résultat obtenu après {} itérations".format(nb_iter))

@@ -48,6 +48,7 @@ Nous voulons réaliser un programme estimant la valeur du nombre π. Pour cela, 
 Cette formule permet une estimation précise de π pour un nombre d’itérations n suffisamment grand.
 Vous devez compléter la fonction `compute_pi(p)` où p est la précision que l'on veut.  
 Dès que l'écart entre 2 valeurs successives est inférieur à la précision on s'arrête.
+Le programme met normalement moins d'une seconde à s'exécuter. 
 
 ## Exercice 4 :
 Le but de cet exercice est de programmer un petit jeu de labyrinthe dans lequel on guide le joueur jusqu'à la sortie. Le joueur peut se déplacer dans toutes les directions mais il ne peut pas sortir du labyrinthe ou passer à travers les murs, ce n'est pas un fantôme.    
