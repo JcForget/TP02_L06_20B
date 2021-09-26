@@ -23,7 +23,7 @@ dic_3 = {'a': 5, 'b': 8, 'd': 17, 'c': 9}
 
 ## Exercice 2 (3 points):
 Lors de la manipulation de liste il est commun de vouloir trier les valeurs qui la compose.
-Pour ce faire nous allons implémenter un algorithme de tri appeler tri à bulle. Il s'agit d'un algorithme peu efficace, mais facile à implémenter.  
+Pour ce faire nous allons implémenter un algorithme de tri appelé tri à bulle. Il s'agit d'un algorithme peu efficace, mais facile à implémenter.  
 **Le pseudo-code de l'algorithme est le suivant :**
 ```
 tri_à_bulles(Tableau T)
