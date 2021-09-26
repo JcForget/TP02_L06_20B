@@ -83,7 +83,7 @@ Sinon on renverra *False*.
 ### Partie 3 : Faire un mouvement (4 points)
 Dans cette dernière partie nous allons compléter la fonction `move`, Dans un premier temps à l'aide d'un dictionnaire
 il faut convertir l'entré *input* en sa direction correspondante. On s'attend à avoir :
-- q -> up
+- w -> up
 - a -> left 
 - s -> down
 - d -> right

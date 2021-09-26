@@ -1,16 +1,16 @@
-# Fontion fournis ne pas modifier
+# Fontion fournie ne pas modifier
 clearConsole = lambda: print('\n' * 10)
 
 def print_table(table):
-    # Dimention 1 = ligne (y)
-    # Dimention 2 = colone (x)
+    # Dimension 1 = ligne
+    # Dimension 2 = colonne
     clearConsole()
     for i, row in enumerate(table):
         row_str = "{:>2}" * len(row)
         row_str = row_str.format(*row)
         print("{:^20}".format(row_str), '\n')
 
-#________________________________________________________________
+# ________________________________________________________________
 
 # Partie 1
 def init_maze(nb_row, nb_col, player_pos, end_pos, walls):
@@ -22,16 +22,13 @@ def init_maze(nb_row, nb_col, player_pos, end_pos, walls):
 
 # Partie 2
 def validate_move(maze, new_player_pos):
-
+    result = False
     # TODO Vérifier si la position est valide -> dans le labyrinthe et pas sur un mur
-    if (...):
-        return True
-    else:
-        return False
+    return result
 
 #Partie 3
 def move(key_pressed, maze, player_pos):
-    move_dic = ... # TODO Créer le dictionnaire d'équivalence entre touche appuyée et direction
+    move_dic = ... # TODO Créer le dictionnaire d'équivalence entre la touche appuyée et la direction ("up", "left", "down", "right")
 
     # TODO Vérifier si la touche appuyée est dans le dictionnaire
     if (...) :
@@ -42,6 +39,7 @@ def move(key_pressed, maze, player_pos):
 
         if validate_move(maze, new_player_pos):
             # TODO Changer réellement la position du joueur
+            pass
 
     return maze, player_pos
 
@@ -49,8 +47,9 @@ def move(key_pressed, maze, player_pos):
 if __name__ == '__main__':
     nb_row = 4
     nb_col = 7
-    player_pos = ... # TODO Définir sur en haut à gauche
-    end_pos = ... # TODO Définir sur en bas à droite
+    player_pos = ...  # TODO Définir la position ligne, colonne sur en haut à gauche
+    end_pos = ...  # TODO Définir la position ligne, colonne sur en bas à droite
+    # Coordoné sous la forme (ligne, colone)
     walls = [[0, 1],[1, 1], [1, 2], [1, 3], [1, 5], [2, 1], [2, 5], [3, 3], [3, 5]]
     maze = init_maze(nb_row, nb_col, player_pos, end_pos, walls)
 
