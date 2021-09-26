@@ -1,5 +1,5 @@
 def tri_bulle(tab):
-    # TODO écrire l'algorithme du trie à bulle comme décrit dans l'énoncé
+    # TODO écrire l'algorithme du tri à bulle comme décrit dans l'énoncé
 
     return tab
 
